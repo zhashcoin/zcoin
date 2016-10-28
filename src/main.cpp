@@ -4258,13 +4258,13 @@ bool InitBlockIndex() {
         unsigned int startBits;
         
         if(fTestNet) {
-            extraNonce[0] = 0x08;
+            extraNonce[0] = 0x05;
             extraNonce[1] = 0x00;
             extraNonce[2] = 0x00;
             extraNonce[3] = 0x00;
             startBits = 0x1e0ffff0;
         } else {
-            extraNonce[0] = 0x82;
+            extraNonce[0] = 0x52;
             extraNonce[1] = 0x3f;
             extraNonce[2] = 0x00;
             extraNonce[3] = 0x00;
