@@ -50,7 +50,7 @@ uint256 nBestChainWork = 0;
 uint256 nBestInvalidWork = 0;
 uint256 hashBestChain = 0;
 uint32_t nVertcoinChainStartTime = 1389306217;
-int64 nStartRewardTime = 1475020800; //1475020800
+int64 nStartRewardTime = 1477627200; //1477627200
 // 1416072600000 : Sat 15 Nov 2014 09:30:00 AM PST
 int64 nChangeChainIDTime = 1416072600;
 CBlockIndex* pindexBest = NULL;
